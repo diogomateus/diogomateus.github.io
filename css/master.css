@@ -1,10 +1,46 @@
-/*
- * generated for diogomateus.github.io
- * author: diogo mateus
- *
- * GENERAL HELPERS
- */
-/* Regular */
-/* Italic */
-/* Bold */
-/* GENERAL STYLES */
+.p0 {
+    padding: 0
+}
+.title {
+    padding-top: 80px
+}
+.content-container > div {
+    margin-top: 15px
+}
+.big-hello {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: bold
+}
+.container h1 {
+    font-weight: bold;
+    margin: 0 0 40px
+}
+.contacts {
+    padding: 20px 0 50px
+}
+a, a:hover, a:focus {
+    color: black;
+    text-decoration: none;
+    font-weight: bold
+}
+a {
+    position: relative
+}
+a:before {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 100%;
+    content: "";
+    display: block;
+    background: black;
+    height: 2px;
+    -o-transition: right .25s ease-in;
+    -webkit-transition: right .25s ease-in;
+    -moz-transition: right .25s ease-in;
+    transition: right .25s ease-in
+}
+a:hover:before {
+    right: 0
+}
